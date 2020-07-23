@@ -4,5 +4,4 @@ README.md: guessinggame.sh
 	echo "" >> README.md
 	date >> README.md
 	echo "" >> README.md
-	c=$(wc -l guessinggame.sh)
-	echo "**$c**" >> README.md
+	wc -l guessinggame.sh >> README.md
